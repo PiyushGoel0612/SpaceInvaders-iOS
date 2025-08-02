@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Build & Run",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "/usr/bin/env",
+      "args": [
+        "swift",
+        "run"
+      ],
+      "preLaunchTask": "build",
+      "console": "integratedTerminal"
+    }
+  ]
+}

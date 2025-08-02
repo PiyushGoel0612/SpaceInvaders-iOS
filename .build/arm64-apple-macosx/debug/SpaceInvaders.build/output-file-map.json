@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/master.swiftdeps"
+  },
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/GameScene.swift": {
+    "dependencies": "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/GameScene.d",
+    "object": "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/GameScene.swift.o",
+    "swiftmodule": "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/GameScene~partial.swiftmodule",
+    "swift-dependencies": "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/GameScene.swiftdeps"
+  },
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/main.swift": {
+    "dependencies": "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/main.d",
+    "object": "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/main.swift.o",
+    "swiftmodule": "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/main.swiftdeps"
+  },
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/resource_bundle_accessor.d",
+    "object": "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/resource_bundle_accessor.swiftdeps"
+  }
+}

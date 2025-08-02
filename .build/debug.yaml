@@ -1,0 +1,134 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "SpaceInvaders-arm64-apple-macosx15.0-debug.exe": ["<SpaceInvaders-arm64-apple-macosx15.0-debug.exe>"]
+  "SpaceInvaders-arm64-apple-macosx15.0-debug.module": ["<SpaceInvaders-arm64-apple-macosx15.0-debug.module>"]
+  "main": ["<SpaceInvaders-arm64-apple-macosx15.0-debug.exe>","<SpaceInvaders-arm64-apple-macosx15.0-debug.module>"]
+  "test": ["<SpaceInvaders-arm64-apple-macosx15.0-debug.exe>","<SpaceInvaders-arm64-apple-macosx15.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders":
+    is-mutated: true
+commands:
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders-entitlement.plist"]
+    description: "Write auxiliary file /Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders-entitlement.plist"
+
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/GameScene.swift","/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/main.swift","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/DerivedSources/resource_bundle_accessor.swift"]
+    outputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/sources"]
+    description: "Write auxiliary file /Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/sources"
+
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/GameScene.swift.o","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/main.swift.o","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/resource_bundle_accessor.swift.o"]
+    outputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.product/Objects.LinkFileList"
+
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/alien.png":
+    tool: copy-tool
+    inputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/alien.png"]
+    outputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/alien.png"]
+    description: "Copying /Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/alien.png"
+
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/alienBullet.png":
+    tool: copy-tool
+    inputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/alienBullet.png"]
+    outputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/alienBullet.png"]
+    description: "Copying /Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/alienBullet.png"
+
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/bullet.png":
+    tool: copy-tool
+    inputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/bullet.png"]
+    outputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/bullet.png"]
+    description: "Copying /Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/bullet.png"
+
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/gameOver.png":
+    tool: copy-tool
+    inputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/gameOver.png"]
+    outputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/gameOver.png"]
+    description: "Copying /Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/gameOver.png"
+
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/rock.png":
+    tool: copy-tool
+    inputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/rock.png"]
+    outputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/rock.png"]
+    description: "Copying /Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/rock.png"
+
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/ship.png":
+    tool: copy-tool
+    inputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/ship.png"]
+    outputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/ship.png"]
+    description: "Copying /Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/ship.png"
+
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/space.png":
+    tool: copy-tool
+    inputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/space.png"]
+    outputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/space.png"]
+    description: "Copying /Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/space.png"
+
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/title.png":
+    tool: copy-tool
+    inputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/title.png"]
+    outputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/title.png"]
+    description: "Copying /Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/title.png"
+
+  "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Library/Developer/CommandLineTools/usr/bin/swiftc"]
+    outputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+
+  "<SpaceInvaders-arm64-apple-macosx15.0-debug.exe>":
+    tool: phony
+    inputs: ["<SpaceInvaders-arm64-apple-macosx15.0-debug.exe-CodeSigning>"]
+    outputs: ["<SpaceInvaders-arm64-apple-macosx15.0-debug.exe>"]
+
+  "<SpaceInvaders-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/GameScene.swift.o","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/main.swift.o","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/resource_bundle_accessor.swift.o","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/Modules/SpaceInvaders.swiftmodule"]
+    outputs: ["<SpaceInvaders-arm64-apple-macosx15.0-debug.module>"]
+
+  "C.SpaceInvaders-arm64-apple-macosx15.0-debug.exe":
+    tool: shell
+    inputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/GameScene.swift.o","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/main.swift.o","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/resource_bundle_accessor.swift.o","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.product/Objects.LinkFileList"]
+    outputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/SpaceInvaders"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-L","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug","-o","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders","-module-name","SpaceInvaders","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_SpaceInvaders_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.product/Objects.LinkFileList","-target","arm64-apple-macosx13.0","-Xlinker","-add_ast_path","-Xlinker","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/Modules/SpaceInvaders.swiftmodule","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xlinker","-rpath","-Xlinker","/Library/Developer/CommandLineTools/Library/Developer/Frameworks"]
+
+  "C.SpaceInvaders-arm64-apple-macosx15.0-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders-entitlement.plist"]
+    outputs: ["<SpaceInvaders-arm64-apple-macosx15.0-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/SpaceInvaders"
+    args: ["codesign","--force","--sign","-","--entitlements","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders-entitlement.plist","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders"]
+
+  "C.SpaceInvaders-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/GameScene.swift","/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/main.swift","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/DerivedSources/resource_bundle_accessor.swift","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt","<SpaceInvaders-arm64-apple-macosx15.0-debug.module-resources>","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/sources"]
+    outputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/GameScene.swift.o","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/main.swift.o","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/resource_bundle_accessor.swift.o","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/Modules/SpaceInvaders.swiftmodule"]
+    description: "Compiling Swift Module 'SpaceInvaders' (3 sources)"
+    args: ["/Library/Developer/CommandLineTools/usr/bin/swiftc","-module-name","SpaceInvaders","-emit-dependencies","-emit-module","-emit-module-path","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/Modules/SpaceInvaders.swiftmodule","-output-file-map","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/output-file-map.json","-incremental","-c","@/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/sources","-I","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-enable-batch-mode","-index-store-path","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","SpaceInvaders_main","-color-diagnostics","-swift-version","5","-F","/Library/Developer/CommandLineTools/Library/Developer/Frameworks","-sdk","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-g","-Xcc","-isysroot","-Xcc","/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk","-Xcc","-fPIC","-Xcc","-g","-package-name","spaceinvadersswift"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/","/Users/piyushgoel/Documents/SpaceInvadersSwift/Package.swift","/Users/piyushgoel/Documents/SpaceInvadersSwift/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
+  "SpaceInvaders-arm64-apple-macosx15.0-debug.module-resources":
+    tool: phony
+    inputs: ["/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/alien.png","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/alienBullet.png","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/bullet.png","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/gameOver.png","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/rock.png","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/ship.png","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/space.png","/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/title.png"]
+    outputs: ["<SpaceInvaders-arm64-apple-macosx15.0-debug.module-resources>"]
+

@@ -1,0 +1,379 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/alien.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/alien.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/alien.png"
+        }
+      ]
+    },
+    "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/alienBullet.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/alienBullet.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/alienBullet.png"
+        }
+      ]
+    },
+    "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/bullet.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/bullet.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/bullet.png"
+        }
+      ]
+    },
+    "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/gameOver.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/gameOver.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/gameOver.png"
+        }
+      ]
+    },
+    "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/rock.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/rock.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/rock.png"
+        }
+      ]
+    },
+    "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/ship.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/ship.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/ship.png"
+        }
+      ]
+    },
+    "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/space.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/space.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/space.png"
+        }
+      ]
+    },
+    "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/title.png" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/Resources/title.png"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvadersSwift_SpaceInvaders.bundle/title.png"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SpaceInvaders-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/sources",
+      "importPath" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/GameScene.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<SpaceInvaders-arm64-apple-macosx15.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "SpaceInvaders",
+      "moduleOutputPath" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/Modules/SpaceInvaders.swiftmodule",
+      "objects" : [
+        "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/GameScene.swift.o",
+        "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/main.swift.o",
+        "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "SpaceInvaders_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-F",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "spaceinvadersswift"
+      ],
+      "outputFileMapPath" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/GameScene.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/Modules/SpaceInvaders.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/GameScene.swift",
+        "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/main.swift",
+        "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SpaceInvaders" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "SpaceInvaders",
+      "-package-name",
+      "spaceinvadersswift",
+      "-incremental",
+      "-c",
+      "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/GameScene.swift",
+      "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/main.swift",
+      "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "SpaceInvaders_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-F",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "spaceinvadersswift",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SpaceInvaders" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders-entitlement.plist"
+    },
+    "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/GameScene.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/Sources/SpaceInvaders/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/sources"
+    },
+    "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/GameScene.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.build/resource_bundle_accessor.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/SpaceInvaders.product/Objects.LinkFileList"
+    },
+    "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/piyushgoel/Documents/SpaceInvadersSwift/.build/arm64-apple-macosx/debug/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}
